@@ -47,15 +47,21 @@ Os dados utilizados neste projeto foram obtidos do repositório [adaoduque/Brasi
 Para executar este projeto, você precisará ter o **Java** e o **Maven** instalados em sua máquina.
 
 **1. Clone o repositório:**
+
 ```bash
 git clone [https://github.com/seu-usuario/brazilian-league-analyzer.git](https://github.com/seu-usuario/brazilian-league-analyzer.git)
 cd brazilian-league-analyzer
+```
 
 **2. Compile o projeto com o Maven:**
+```bash
 mvn clean install
+```
 
 **3. Execute o arquivo JAR gerado:**
+```bash
 java -jar target/analise-brasileirao-1.0-SNAPSHOT.jar
+```
 
 📝 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
